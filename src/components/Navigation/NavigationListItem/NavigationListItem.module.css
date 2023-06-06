@@ -1,0 +1,47 @@
+.NavigationListItem {
+  text-align: center;
+  height: 100%;
+  padding: 7px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.NavigationListItem a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  background: var(--navbar-btn-bg);
+  box-shadow: var(--navbar-btn-box-shadow);
+}
+
+.NavigationListItem a svg {
+  font-size: 21px;
+  color: var(--navbar-icon-color);
+}
+
+.NavigationListItem .activeLink {
+  background: var(--navbar-btn-bg-active);
+  box-shadow: var(--navbar-btn-box-shadow-active);
+}
+
+.NavigationListItem .activeLink svg {
+  color: var(--navbar-active-icon-color);
+}
+
+.NavigationListItem span {
+  color: var(--navbar-text-color);
+  font-weight: 400;
+}
+
+.NavigationListItem .activeLink + span {
+  color: var(--navbar-active-text-color);
+  font-weight: 500;
+}

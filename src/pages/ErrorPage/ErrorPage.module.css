@@ -1,0 +1,8 @@
+.ErrorPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 200;
+  font-size: var(--giant-font-size);
+}

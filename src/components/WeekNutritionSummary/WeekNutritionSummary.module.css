@@ -1,0 +1,48 @@
+.WeekNutritionSummary {
+  width: 100%;
+  background-image: var(--bg-image-gradient-two);
+  border: 1px solid var(--secondary-border-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 5px;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 60%;
+}
+
+.kcalsValue {
+  display: flex;
+  align-items: flex-end;
+}
+
+.kcalsValue > div:first-of-type {
+  font-family: var(--secondary-font);
+  letter-spacing: 2px;
+  color: var(--accent-text-alt-color);
+  font-size: var(--giant-font-size);
+}
+
+.kcalsValue > div:nth-of-type(2) {
+  color: var(--primary-text-color);
+  font-size: var(--big-font-size);
+}
+
+.title {
+  color: var(--heading-text-color);
+  font-size: var(--medium-font-size);
+  text-align-last: left;
+}
+
+.warningIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightContainer {
+  display: flex;
+  align-items: center;
+}

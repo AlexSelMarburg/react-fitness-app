@@ -1,0 +1,10 @@
+.button {
+  font-size: 18px;
+  border: none;
+}
+
+.button:focus {
+  background-color: var(
+    --user-interaction-feedback-call-to-action-bg-color
+  ) !important;
+}

@@ -1,0 +1,35 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: var(--backdrop-bg-color);
+}
+
+.modal {
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 500px) {
+  .backdrop > * {
+    max-width: var(--backdrop-max-width);
+    max-height: var(--backdrop-max-height);
+  }
+
+  .backdrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

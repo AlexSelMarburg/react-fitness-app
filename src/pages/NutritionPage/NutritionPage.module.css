@@ -1,0 +1,14 @@
+.NutritionPage {
+}
+
+.contentContainer {
+  flex: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions {
+  height: 100%;
+}

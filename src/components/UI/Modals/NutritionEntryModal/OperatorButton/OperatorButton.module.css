@@ -1,0 +1,11 @@
+.button {
+  font-size: 18px;
+  background-color: var(--secondary-call-to-action-color) !important;
+  border: none;
+}
+
+.button:focus {
+  background: var(
+    --user-interaction-feedback-call-to-action-bg-color
+  ) !important;
+}

@@ -1,0 +1,58 @@
+.ExerciseTemplate {
+  min-height: 90px;
+  width: 100%;
+  border: 1px solid var(--secondary-border-color);
+  overflow: hidden;
+  color: var(--primary-text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.ExerciseTemplate > div {
+  padding: 5px;
+}
+
+.title {
+  flex: 1;
+  color: var(--heading-text-color);
+  font-size: var(--medium-font-size);
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--secondary-border-color);
+  background-image: var(--bg-image-gradient-three);
+}
+
+.repsRange > div {
+  color: var(--accent-text-alt-color);
+  font-size: var(--normal-font-size);
+}
+
+.repsRange > div > span {
+  color: var(--primary-text-color);
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons > button {
+  color: #fff;
+}
+
+.buttons > button:first-of-type {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+.buttons > button:last-of-type {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}

@@ -1,0 +1,74 @@
+.CreateExerciseTemplateModal {
+  background-color: var(--secondary-bg-color);
+  min-height: 450px;
+  width: calc(100% - 10px);
+  border: 1px solid var(--primary-border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.CreateExerciseTemplateModal > form {
+  flex: 1;
+}
+
+.actions {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  border-top: 1px solid var(--primary-border-color);
+}
+
+.actions > button {
+  color: #fff;
+}
+
+.actions > button:first-of-type {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+
+.actions > button:last-of-type {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}
+
+.textInput {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.titleInput {
+  text-align: center;
+}
+
+.textInput > label,
+.textInput > input,
+.textInput > textarea {
+  font-size: var(--normal-font-size);
+  font-family: var(--primary-font);
+}
+
+.textInput > label {
+  color: var(--heading-text-color);
+  margin-bottom: 3px;
+  letter-spacing: 2px;
+}
+
+.textInput > input,
+.textInput > textarea {
+  padding: 5px;
+  background-color: var(--quaternary-bg-color);
+  border: none;
+  color: var(--primary-text-color);
+}
+.textInput > textarea {
+  resize: none;
+}
+
+.textInput > input:focus,
+.textInput > textarea:focus {
+  outline: 1px solid var(--primary-border-color);
+}
+
+.rangeSliderContainer {
+  padding: 5px 10px;
+}

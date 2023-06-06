@@ -1,0 +1,37 @@
+.ProcessedSession {
+  border: 1px solid var(--secondary-border-color);
+  min-height: 40px;
+  display: flex;
+  padding: 5px;
+  background-image: var(--bg-image-gradient-two);
+}
+
+.data {
+  flex: 1;
+  border-right: 2px solid var(--secondary-border-color);
+  text-align: left;
+}
+
+.dayName {
+  color: var(--heading-text-color);
+  font-size: var(--normal-font-size);
+}
+
+.date > span {
+  font-size: var(--normal-font-size);
+  letter-spacing: 3px;
+}
+
+.date > span:last-of-type {
+  color: var(--accent-text-alt-color);
+}
+
+.actions {
+  width: 50px;
+  padding: 0 5px;
+}
+
+.actions > button {
+  background-color: var(--danger-call-to-action-bg-color);
+  color: #fff;
+}

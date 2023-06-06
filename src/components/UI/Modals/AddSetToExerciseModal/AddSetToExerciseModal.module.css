@@ -1,0 +1,91 @@
+.AddSetToExerciseModal {
+  background-color: var(--secondary-bg-color);
+  min-height: 230px;
+  width: calc(100% - 10px);
+  border: 1px solid var(--primary-border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.AddSetToExerciseModal > div {
+  padding: 5px;
+}
+
+.title {
+  border-bottom: 1px solid var(--primary-border-color);
+  color: var(--heading-text-color);
+}
+
+.title > span {
+  color: var(--accent-text-alt-color);
+}
+
+.inputsContainer {
+  flex: 1;
+  border-bottom: 1px solid var(--primary-border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weightSettingsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weightSettingsContainer > div {
+  display: flex;
+  gap: 10px;
+}
+
+.weightLabel {
+  text-transform: uppercase;
+  color: var(--heading-text-color);
+  font-size: var(--medium-font-size);
+  letter-spacing: 2px;
+}
+
+.weightValue {
+  color: var(--accent-text-alt-color);
+  font-size: var(--giant-font-size);
+}
+
+.weightValue > span {
+  color: var(--secondary-text-color);
+}
+
+.weightUpDownButtons {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.weightUpDownButtons > button {
+  border-radius: 50%;
+  background-color: var(--quaternary-bg-color);
+  width: 35px;
+  height: 35px;
+}
+
+.weightUpDownButtons > button > svg {
+  color: var(--primary-call-to-action-bg-color);
+}
+
+.actions {
+  background-image: var(--bg-image-gradient-one);
+  display: flex;
+  gap: 5px;
+}
+
+.actions > button {
+  color: #fff;
+}
+
+.actions > button:first-of-type {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+
+.actions > button:last-of-type {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}

@@ -1,0 +1,23 @@
+.contentContainer {
+  flex: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 7px;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+
+.empty {
+  color: var(--accent-text-alt-color);
+}
+
+.actions {
+  height: 100%;
+}
+
+.contentContainer::-webkit-scrollbar,
+.contentContainer scrollbar {
+  display: none;
+}

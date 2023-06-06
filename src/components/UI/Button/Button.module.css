@@ -1,0 +1,30 @@
+.button {
+  border-radius: 3px;
+  padding: 8px;
+  background-color: var(--primary-call-to-action-bg-color);
+  font-size: var(--big-font-size);
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: var(--primary-call-to-action-color);
+  border: none;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:focus {
+  background: var(
+    --user-interaction-feedback-call-to-action-bg-color
+  ) !important;
+}
+
+.button:disabled {
+  opacity: 0.45;
+}
+
+.button > svg {
+  font-size: var(--min-button-svg-font-size);
+}

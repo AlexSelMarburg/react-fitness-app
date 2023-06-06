@@ -1,0 +1,14 @@
+/* BUTTONS */
+:root {
+  --primary-call-to-action-bg-color: #fffd01;
+  --danger-call-to-action-bg-color: #ff443a;
+  --confirmation-call-to-action-bg-color: #92dc12;
+  --user-interaction-feedback-call-to-action-bg-color: #ff9f0a;
+  --alternate-call-to-action-bg-color: #ff373b;
+
+  --primary-call-to-action-color: black;
+  --secondary-call-to-action-color: #0f76aa;
+
+  --min-button-size: 44px;
+  --min-button-svg-font-size: 24px;
+}

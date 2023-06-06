@@ -1,0 +1,54 @@
+.TemplateExercisesModal {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  height: 62px;
+  background-color: var(--secondary-bg-color);
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.heading > span {
+  font-size: var(--big-font-size);
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--heading-text-color);
+  overflow-wrap: anywhere;
+  padding-right: 5px;
+}
+
+.templateExercisesList {
+  background-color: var(--tertiary-bg-color);
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+}
+
+.templateExercisesList::-webkit-scrollbar,
+.templateExercisesList scrollbar {
+  display: none;
+}
+
+.templateExercisesList.empty > p {
+  color: var(--accent-text-alt-color);
+  font-size: var(--giant-font-size);
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.actions {
+  padding: 7px;
+  background-color: var(--primary-bg-color);
+}

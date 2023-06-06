@@ -1,0 +1,132 @@
+.CreateProfilePage {
+  justify-content: center;
+  gap: 10px;
+}
+
+.CreateProfileForm {
+  padding: 5px;
+  background-image: var(--bg-image-gradient-two);
+}
+
+.title {
+  font-weight: initial;
+  padding: 5px;
+  text-align: center;
+  font-size: var(--big-font-size);
+  color: var(--accent-text-alt-color);
+  letter-spacing: 2px;
+}
+
+.nameInputs {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  margin-bottom: 10px;
+}
+
+.formControl > input {
+  font-size: var(--big-font-size);
+  padding: 5px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  border: 1px solid var(--secondary-border-color);
+}
+
+.formControl input,
+.formControl label {
+  display: block;
+}
+
+.formControl label,
+.genderSelection > p,
+.birthDatePicker > label {
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-size: var(--medium-font-size);
+  letter-spacing: 2px;
+}
+
+.formControl label,
+.genderSelection > p,
+.birthDatePicker > label {
+  color: var(--heading-text-color);
+}
+
+.birthDatePicker {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.birthDatePicker > input {
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 3px;
+  outline: none;
+  color: #000;
+}
+
+::-webkit-datetime-edit {
+  padding: 3px;
+  font-size: var(--giant-font-size);
+  background-color: #fff;
+  color: #000;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+  background-color: #fff;
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  padding: 0 5px;
+  font-size: var(--giant-font-size);
+}
+
+.genderSelection {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-bottom: 15px;
+}
+
+.genderSelect {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.genderSelect > label {
+  font-size: var(--normal-font-size);
+  text-transform: none;
+  letter-spacing: 2px;
+}
+
+input[type="radio"] {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Chrome, Safari, Opera */
+  transform: scale(1.4);
+  appearance: none;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 5px;
+  background-clip: content-box;
+  padding: 3px;
+  margin: 0 10px;
+  border: 1px solid var(--secondary-border-color);
+  accent-color: var(--primary-bg-color);
+}
+
+input[type="radio"]:checked {
+  border: 1px solid var(--primary-border-color);
+  background-color: var(--primary-call-to-action-bg-color);
+}
+
+.formActions {
+  padding-top: 20px;
+}

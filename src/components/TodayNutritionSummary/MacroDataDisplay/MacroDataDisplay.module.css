@@ -1,0 +1,40 @@
+.MacroNutrient {
+  border-radius: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--tertiary-bg-color);
+}
+
+.macroNutrientTitle {
+  letter-spacing: 2px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-text-alt-color);
+}
+
+.nutrientProgressbarContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.values {
+  width: 100%;
+  text-align: center;
+}
+
+.values > div {
+  letter-spacing: 3px;
+  font-size: var(--big-font-size);
+  font-weight: 300;
+  color: var(--primary-text-color);
+}
+
+.values > div:nth-of-type(2) {
+  font-size: var(--medium-font-size);
+  color: var(--accent-text-alt-color);
+}

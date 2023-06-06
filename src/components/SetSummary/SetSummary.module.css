@@ -1,0 +1,49 @@
+.SetSummary {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: var(--normal-font-size);
+  padding: 5px;
+  padding-right: 0;
+  background-image: var(--bg-image-gradient-two);
+}
+
+.SetSummary > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.SetSummary > .setNumber {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  max-width: 35px !important;
+}
+
+.SetSummary > .setNumber > span {
+  width: 100%;
+}
+
+.setValue {
+  color: var(--accent-text-alt-color);
+}
+
+.SetSummary > div > span:first-of-type {
+  color: var(--primary-text-color);
+}
+
+.SetSummary .actions {
+  max-width: 50px;
+}
+
+.actions > button {
+  background: var(--danger-call-to-action-bg-color);
+  color: #fff;
+}
+
+.actions > button > svg {
+  font-size: 32px;
+}

@@ -1,0 +1,20 @@
+:root {
+  /* ---NUTRIENTS---------------------- */
+  --protein-color: #21bf73;
+  --carbs-color: #ff8800;
+  --fats-color: #0f76aa;
+  --kcals-color: #f5f5f5;
+
+  /* BORDER-colors */
+  --primary-border-color: var(--secondary-text-color);
+  --secondary-border-color: rgba(239, 239, 239, 0.25);
+
+  /* neu-Morphism */
+  --neu-effect-box-shadow: 5px 5px 6px var(--tertiary-bg-color),
+    -1px -2px 3px var(--secondary-bg-color);
+
+  /* BACKDROP---- */
+  --backdrop-max-width: 412px;
+  --backdrop-max-height: 915px;
+  --backdrop-bg-color: rgba(0, 0, 0, 0.75);
+}

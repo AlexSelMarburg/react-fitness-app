@@ -1,0 +1,20 @@
+/* ---FONTS------------ */
+:root {
+  --main-font: "Poppins", sans-serif;
+  --secondary-font: "Noto Sans JP", sans-serif;
+  --digital-font: "Orbitron", sans-serif;
+
+  --primary-text-color: rgba(239, 239, 239, 0.87);
+  --secondary-text-color: rgba(239, 239, 239, 0.6);
+  --tertiary-text-color: rgba(239, 239, 239, 0.38);
+  --accent-text-alt-color: #84c9fb;
+  --heading-text-color: #c1d639;
+  --danger-text-color: #ff443a;
+
+  --giant-font-size: 22px;
+  --big-font-size: 16px;
+  --normal-font-size: 14px;
+  --medium-font-size: 12px;
+  --small-font-size: 10px;
+  --tiny-fonz-size: 8px;
+}

@@ -1,0 +1,34 @@
+.processedSessionHeader {
+  padding: 5px;
+  border: 1px solid var(--secondary-border-color);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.processedSessionsTitle {
+  color: var(--heading-text-color);
+  font-size: var(--big-font-size);
+}
+
+.processedSessionDescription {
+  font-size: var(--normal-font-size);
+  letter-spacing: 2px;
+  color: var(--primary-text-color);
+}
+
+.processedSessions {
+  flex: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 7px;
+  background-color: transparent;
+}
+
+.processedSessions::-webkit-scrollbar,
+.processedSessions scrollbar {
+  display: none;
+}

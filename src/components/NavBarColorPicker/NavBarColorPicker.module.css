@@ -1,0 +1,56 @@
+.NavBarColorPicker {
+  height: 100px;
+  width: 100%;
+  border: 1px solid var(--secondary-border-color);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.titleContainer {
+  padding: 5px 10px;
+  background-color: var(--highlight-bg-color);
+}
+
+.titleContainer > p {
+  font-size: var(--big-font-size);
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.colorsContainer {
+  flex: 1;
+  padding: 5px;
+  background-color: var(--quaternary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.colorsContainer > button {
+  border-radius: 50%;
+  border: none;
+  height: 35px;
+  width: 35px;
+  outline: none;
+}
+
+.colorsContainer > button:nth-child(1) {
+  background-color: var(--navbar-bg-color-1);
+}
+.colorsContainer > button:nth-child(2) {
+  background-color: var(--navbar-bg-color-2);
+}
+.colorsContainer > button:nth-child(3) {
+  background-color: var(--navbar-bg-color-3);
+}
+.colorsContainer > button:nth-child(4) {
+  background-color: var(--navbar-bg-color-4);
+}
+
+.colorsContainer button.active {
+  outline: 3px solid var(--primary-border-color);
+}

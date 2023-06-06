@@ -1,0 +1,14 @@
+.Navigation {
+  width: 100%;
+  background-color: var(--navbar-bg-color);
+  height: var(--navbar-height);
+  border-top: 2px solid var(--navbar-active-icon-color);
+}
+
+.Navigation ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}

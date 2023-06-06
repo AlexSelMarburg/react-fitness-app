@@ -1,0 +1,69 @@
+.sessionHeader {
+  border: 1px solid var(--secondary-border-color);
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+.exerciseTitle {
+  color: var(--heading-text-color);
+  font-size: var(--medium-font-size);
+  margin-bottom: 5px;
+}
+
+.exerciseInfo {
+  display: flex;
+}
+
+.infoData {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoData > div {
+  display: flex;
+  align-items: center;
+}
+
+.exerciseDescription {
+  font-size: var(--medium-font-size);
+  display: flex;
+  align-items: center;
+}
+
+.exerciseSets > span,
+.exerciseReps > span,
+.exerciseDescription > span {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent-text-alt-color);
+  font-size: var(--medium-font-size);
+}
+
+.exercisesContainer {
+  padding-top: 10px;
+  flex: 1px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-bottom: 5px;
+  background-color: transparent;
+}
+
+.exercisesContainer::-webkit-scrollbar,
+.exercisesContainer scrollbar {
+  display: none;
+}
+
+.VsSeperator {
+  min-height: 30px;
+  text-align: center;
+  font-size: var(--giant-font-size);
+  color: var(--heading-text-color);
+}
+
+.actions {
+  display: flex;
+  align-items: end;
+}

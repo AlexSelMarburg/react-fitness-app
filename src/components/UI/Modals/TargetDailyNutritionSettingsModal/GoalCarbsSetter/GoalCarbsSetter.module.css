@@ -1,0 +1,35 @@
+.GoalCarbsSetter {
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.heading {
+  padding: 5px;
+  color: var(--heading-text-color);
+  font-size: var(--big-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: var(--bg-image-gradient-one);
+}
+
+.heading > label > span {
+  font-size: var(--normal-font-size);
+  color: var(--secondary-text-color);
+}
+
+.goalCarbs {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--accent-text-alt-color);
+  font-size: var(--giant-font-size);
+  background-color: var(--primary-bg-color);
+}
+
+.goalCarbs > div > span {
+  font-size: var(--big-font-size);
+  color: var(--secondary-text-color);
+}

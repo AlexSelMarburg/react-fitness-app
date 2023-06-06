@@ -1,0 +1,40 @@
+.sessionHeader {
+  border: 1px solid var(--secondary-border-color);
+  font-size: var(--big-font-size);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sessionTitle {
+  color: var(--heading-text-color);
+}
+
+.sessionNumber {
+  margin-bottom: 10px;
+}
+
+.sessionNumber > span,
+.sessionDate > span {
+  color: var(--accent-text-alt-color);
+}
+
+.sessionActions > button {
+  background-color: var(--danger-call-to-action-bg-color);
+  color: #fff;
+}
+
+.exercisesContainer {
+  flex: 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 10px;
+  padding-bottom: 5px;
+  background-color: transparent;
+}
+
+.exercisesContainer::-webkit-scrollbar,
+.exercisesContainer scrollbar {
+  display: none;
+}

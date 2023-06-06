@@ -1,0 +1,82 @@
+.NutritionSelection {
+  height: 100%;
+  flex: 1;
+  border-top: 1px solid var(--secondary-bg-color);
+  margin-top: -1px;
+  display: flex;
+  flex-direction: column;
+  background-image: var(--bg-image-gradient-two);
+}
+
+.currentNutritionValueDisplay {
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-size: var(--giant-font-size);
+  color: var(--heading-text-color);
+  font-family: var(--secondary-font);
+}
+
+.nutritionTypeSelectionBtns {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  align-content: end;
+}
+
+.nutritionSelector {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-text-color);
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: var(--medium-font-size);
+  word-wrap: break-word;
+}
+
+.nutritionSelector.active {
+  background: var(--kcals-color);
+  color: var(--primary-bg-color);
+  font-weight: 500;
+}
+
+.proteinsSelector.active {
+  background: var(--protein-color);
+}
+.carbsSelector.active {
+  background: var(--carbs-color);
+}
+.fatsSelector.active {
+  background: var(--fats-color);
+}
+.kcalsSelector.active {
+  background: var(--kcals-color);
+}
+
+.proteinsSelector {
+  border-radius: 8px 15px 8px 15px;
+  background-image: linear-gradient(135deg, #242424 0%, #414141 74%);
+}
+
+.carbsSelector {
+  border-radius: 15px 8px 15px 8px;
+  background-image: linear-gradient(225deg, #242424 0%, #414141 74%);
+}
+
+.fatsSelector {
+  border-radius: 15px 8px 15px 8px;
+  background-image: linear-gradient(15deg, #242424 0%, #414141 74%);
+}
+
+.kcalsSelector {
+  border-radius: 8px 15px 8px 15px;
+  background-image: linear-gradient(315deg, #242424 0%, #414141 74%);
+}

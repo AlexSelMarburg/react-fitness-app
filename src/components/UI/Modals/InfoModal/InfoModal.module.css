@@ -1,0 +1,42 @@
+.InfoModal {
+  width: 90%;
+  min-height: 100px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-bg-color);
+}
+
+.informationContainer,
+.actions {
+  padding: 8px;
+}
+
+.informationContainer {
+  flex: 1;
+  color: var(--primary-text-color);
+  overflow-y: auto;
+  background-image: var(--bg-image-gradient-two);
+  border-bottom: 1px solid var(--confirmation-call-to-action-bg-color);
+}
+
+.informationContainer > h3,
+.informationContainer > p {
+  font-size: var(--big-font-size);
+  text-align-last: left;
+  letter-spacing: 2px;
+  height: 100%;
+  white-space: pre-wrap;
+}
+
+.informationContainer > p {
+  font-size: var(--normal-font-size);
+}
+
+.actions {
+  background-color: var(--tertiary-bg-color);
+}
+
+.actions > button {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}

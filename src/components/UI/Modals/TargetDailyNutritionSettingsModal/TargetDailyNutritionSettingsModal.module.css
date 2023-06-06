@@ -1,0 +1,24 @@
+.TargetDailyNutritionSettingsModal {
+  width: 100%;
+  height: calc(100% - 10px);
+  margin: 5px;
+  border: 1px solid var(--secondary-border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.macrosSettings {
+  background-image: var(--bg-image-gradient-two);
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
+}
+
+.actions {
+  border-top: 1px solid var(--secondary-border-color);
+  padding: 10px;
+  background-color: var(--primary-bg-color);
+}

@@ -1,0 +1,111 @@
+.SessionTemplate {
+  background-color: var(--secondary-bg-color);
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 140px;
+  border: 1px solid var(--secondary-border-color);
+  display: flex;
+  flex-direction: column;
+
+  --text-button-width: 135px;
+}
+
+.SessionTemplate > div {
+  padding: 5px;
+}
+
+.sessionName {
+  text-align: left;
+  color: var(--heading-text-color);
+  font-size: var(--big-font-size);
+  letter-spacing: 2px;
+  overflow-wrap: anywhere;
+}
+
+.sessionData {
+  flex: 1;
+  border-top: 1px solid var(--secondary-border-color);
+  background-color: var(--primary-bg-color);
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exerciseCount {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exerciseCount > div > span {
+  font-size: var(--giant-font-size);
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.exerciseCount > button,
+.lastRun > button,
+.sessionActions > button:last-of-type {
+  width: var(--text-button-width);
+  height: var(--min-button-size);
+  display: flex;
+  justify-content: space-between;
+}
+
+.exerciseCount > div > span:last-of-type {
+  color: var(--accent-text-alt-color);
+}
+
+.lastRun {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastRunDate {
+  flex: 1;
+}
+
+.lastRunDateLabel {
+  text-transform: uppercase;
+  font-size: var(--medium-font-size);
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+.lastRunDateValue {
+  letter-spacing: 2px;
+  color: var(--accent-text-alt-color);
+  font-size: var(--big-font-size);
+}
+
+.sessionActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--secondary-border-color);
+}
+
+.thumbButtons {
+  display: flex;
+  gap: 5px;
+}
+
+.thumbButtons > button:first-of-type {
+  background-color: var(--danger-call-to-action-bg-color);
+  color: #fff;
+}
+
+.sessionActions > button:last-of-type {
+  color: #fff;
+  background-color: var(--secondary-call-to-action-color);
+  text-align: left;
+}
+
+.sessionActions > button:last-of-type > svg {
+  font-size: 32px;
+}

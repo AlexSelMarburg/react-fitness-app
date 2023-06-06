@@ -1,0 +1,57 @@
+.newSessionContainer {
+  background-color: var(--tertiary-bg-color);
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  margin: 5px;
+}
+
+.newSessionTitle {
+  border-bottom: 1px solid var(--secondary-border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.newSessionTitle > span:first-of-type {
+  color: var(--heading-text-color);
+  font-size: var(--normal-font-size);
+}
+
+.newSessionForm {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 3px;
+}
+
+.newSessionForm > label {
+  text-align: start;
+  letter-spacing: 2px;
+  color: var(--accent-text-alt-color);
+}
+
+.newSessionForm > input {
+  padding: 5px;
+  background-color: var(--quaternary-bg-color);
+  outline: none;
+  border: none;
+  color: var(--primary-text-color);
+  text-align: center;
+  font-size: var(--big-font-size);
+}
+
+.newSessionForm > .actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.newSessionForm > .actions > button:first-of-type {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+.newSessionForm > .actions > button:last-of-type {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}

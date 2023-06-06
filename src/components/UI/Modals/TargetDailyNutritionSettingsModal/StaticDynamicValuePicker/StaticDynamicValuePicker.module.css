@@ -1,0 +1,163 @@
+.StaticDynamicValuePicker {
+  min-height: 180px;
+  width: 100%;
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 5px;
+  color: var(--heading-text-color);
+  font-size: var(--big-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: var(--bg-image-gradient-one);
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.title > span:last-of-type {
+  font-size: var(--normal-font-size);
+  color: var(--secondary-text-color);
+}
+
+.optionsPickers {
+  display: flex;
+  height: 35px;
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.staticOption {
+  flex: 1;
+  display: flex;
+}
+
+.dynamicOption {
+  flex: 1;
+  display: flex;
+}
+
+.optionPickerContainer {
+  background-color: var(--primary-bg-color);
+  width: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionTitle {
+  padding: 5px;
+  color: var(--primary-text-color);
+  font-size: var(--small-font-size);
+  background-color: var(--tertiary-bg-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dynamicOptionPicker,
+.staticOptionPicker {
+  background-color: var(--tertiary-bg-color);
+  border: 1px solid var(--primary-text-color);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dynamicOptionPicker.active,
+.staticOptionPicker.active {
+  background-color: var(--primary-call-to-action-bg-color);
+}
+
+.staticOptionValue {
+  flex: 1;
+  border-bottom: 1px solid var(--secondary-border-color);
+}
+
+.dynamicOptionValue {
+  flex: 1;
+}
+
+.staticOptionValue,
+.dynamicOptionValue {
+  display: flex;
+}
+
+.gramsValue {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: var(--primary-bg-color);
+  width: 28%;
+  font-size: var(--giant-font-size);
+  color: var(--tertiary-text-color);
+}
+
+.gramsValue > div {
+  display: flex;
+  align-items: baseline;
+  letter-spacing: 2px;
+}
+
+.gramsValue > div > span {
+  color: var(--tertiary-text-colorr);
+  font-size: var(--big-font-size);
+}
+
+.actions {
+  padding: 5px;
+  background-color: var(--secondary-bg-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.staticOptionValue > .actions {
+  justify-content: end;
+}
+
+.dynamicOptionValue > .actions {
+  justify-content: space-between;
+}
+
+.dynamicOptionValue > .actions > div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.gramsPerBodyWeightValue {
+  color: var(--tertiary-text-color);
+  font-size: var(--giant-font-size);
+}
+
+.gramsPerBodyWeightValue > div {
+  display: flex;
+  align-items: baseline;
+  letter-spacing: 2px;
+}
+
+.gramsPerBodyWeightValue > div > span:last-child {
+  font-size: var(--big-font-size);
+}
+
+.dynamicOptionValue > .actions > .buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.gramsValue.active {
+  color: var(--accent-text-alt-color);
+}
+
+.gramsPerBodyWeightValue.active > div > span {
+  color: var(--accent-text-alt-color);
+}

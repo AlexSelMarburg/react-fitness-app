@@ -1,0 +1,84 @@
+.PrevProcessedExercise {
+  border: 1px solid var(--primary-border-color);
+  width: 100%;
+  min-height: 50px;
+  flex: 1;
+}
+
+.title {
+  padding: 5px;
+  font-size: var(--medium-font-size);
+  background-color: var(--secondary-bg-color);
+  border-bottom: 1px solid var(--primary-border-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.title > span {
+  color: var(--heading-text-color);
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.summary {
+  background-color: var(--secondary-bg-color);
+  padding: 5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.summary > span:first-of-type {
+  color: var(--heading-text-color);
+  letter-spacing: 3px;
+}
+
+.summary > span:last-of-type {
+  color: var(--accent-text-alt-color);
+  letter-spacing: 2px;
+}
+
+.setsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.set {
+  display: flex;
+  padding: 5px;
+  background-color: var(--secondary-bg-color);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.set > div {
+  flex: 1;
+  color: var(--secondary-text-color);
+  font-size: var(--normal-font-size);
+}
+
+.set > div > span {
+  color: var(--accent-text-alt-color);
+}
+
+.set > div:first-of-type {
+  max-width: 30px;
+}
+
+.set > div:first-of-type > span {
+  color: var(--heading-text-color);
+}
+
+.set > div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+
+.set > div:last-of-type > span:first-of-type {
+  color: var(--secondary-text-color);
+}

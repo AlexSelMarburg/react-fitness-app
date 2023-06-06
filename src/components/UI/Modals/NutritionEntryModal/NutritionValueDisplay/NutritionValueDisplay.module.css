@@ -1,0 +1,41 @@
+.NutritionValueDisplay {
+  padding: 5px 5px 10px 8px;
+}
+
+.value {
+  color: var(--primary-text-color);
+  font-family: var(--secondary-font);
+  font-size: var(--giant-font-size);
+  line-height: 1;
+}
+
+.value > span {
+  font-size: var(--big-font-size);
+  color: var(--secondary-text-color);
+  font-weight: 200;
+  padding-left: 3px;
+}
+
+.label {
+  font-size: var(--normal-font-size);
+  color: var(--heading-text-color);
+  letter-spacing: 3px;
+}
+
+.NutritionValueDisplay.currentActiveNutritionValue * {
+  color: var(--primary-bg-color);
+  font-weight: 500;
+}
+
+.NutritionValueDisplay.currentActiveNutritionValue.proteinValueDisplay {
+  background-color: var(--protein-color);
+}
+.NutritionValueDisplay.currentActiveNutritionValue.carbsValueDisplay {
+  background-color: var(--carbs-color);
+}
+.NutritionValueDisplay.currentActiveNutritionValue.fatsValueDisplay {
+  background-color: var(--fats-color);
+}
+.NutritionValueDisplay.currentActiveNutritionValue.kcalsValueDisplay {
+  background-color: var(--kcals-color);
+}

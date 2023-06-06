@@ -1,0 +1,16 @@
+.Card {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-bg-color);
+  overflow: hidden;
+}
+
+.Card > * {
+  min-width: 100% !important;
+}
+
+.neuEffect {
+  box-shadow: var(--neu-effect-box-shadow);
+}

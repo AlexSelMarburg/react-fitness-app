@@ -1,0 +1,53 @@
+.KcalsProgressBar {
+  margin: 5px;
+  margin-bottom: 0;
+  height: 44px;
+  width: "100%";
+  position: relative;
+  background-color: var(--kcals-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fillerStyles {
+  background-color: var(--confirmation-call-to-action-bg-color);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: animate ease-in 0.75s;
+}
+
+.fillerStyles.valueOverTarget {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+
+.percentage {
+  position: absolute;
+  right: 10px;
+  padding: 5;
+}
+
+.label {
+  position: absolute;
+  left: 5px;
+  padding: 5;
+  font-size: 21px;
+}
+
+.percentage,
+.label {
+  color: var(--primary-bg-color);
+}
+
+.percentage {
+  font-size: var(--giant-font-size);
+}
+
+@keyframes animate {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

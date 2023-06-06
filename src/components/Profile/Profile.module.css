@@ -1,0 +1,67 @@
+.Profile {
+  background-image: var(--bg-image-gradient-two);
+  overflow: hidden;
+}
+
+.Profile > * {
+  padding: 5px;
+}
+
+.name {
+  background-color: var(--highlight-bg-color);
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.profileData,
+.bmiData {
+  border-bottom: 1px solid var(--highlight-bg-color);
+}
+
+.profileData > div,
+.bmiData > div {
+  display: flex;
+  align-items: center;
+}
+
+.dataLabel,
+.dataValue,
+.dataUnit {
+  letter-spacing: 2px;
+}
+
+.dataLabel {
+  text-transform: uppercase;
+}
+
+.dataValue,
+.dataUnit,
+.genderIcon {
+  font-size: var(--big-font-size);
+}
+
+.dataValue,
+.genderIcon {
+  margin-left: 5px;
+  color: var(--accent-text-alt-color);
+  font-weight: 400;
+}
+
+.dataUnit {
+  color: var(--secondary-text-color);
+}
+
+.genderIcon {
+  align-self: center;
+  margin-left: 5px;
+}
+
+.bmiStatus {
+  color: var(--accent-text-alt-color);
+}
+
+.footer {
+  background-color: var(--highlight-bg-color);
+  height: 20px;
+}

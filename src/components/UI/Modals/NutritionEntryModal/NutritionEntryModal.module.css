@@ -1,0 +1,81 @@
+.NutritionEntryModal {
+  width: 330px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 3px solid var(--secondary-bg-color);
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.nutritionValuesContainer {
+  flex: 1;
+  background-color: var(--secondary-bg-color);
+}
+
+/* ----LOWER--------------------------------------- */
+
+.operandsDisplay {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: var(--giant-font-size);
+  font-weight: 200;
+  color: var(--primary-text-color);
+  overflow: hidden;
+  background-color: var(--primary-bg-color);
+}
+
+.operatorDisplay {
+  color: var(--accent-text-alt-color);
+  font-weight: 400;
+  padding: 0 5px;
+}
+
+.nutritionValuesRecordContainer {
+  height: 240px;
+  padding-bottom: 5px;
+  background-image: var(--bg-image-gradient-two);
+  display: flex;
+}
+
+.nutritionNumPad {
+  width: 190px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  background-image: var(--bg-image-gradient-one);
+}
+
+.nutritionNumPad > button {
+  background-color: transparent;
+  color: var(--primary-text-color) !important;
+  font-weight: 300 !important;
+  border: 1px solid var(--quaternary-bg-color);
+  border-radius: 0;
+  padding: 0;
+  /* margin-top: -1px; */
+  /* margin-left: -1px; */
+}
+
+.nutritionNumPad > .abortBtn {
+  background-color: var(--danger-call-to-action-bg-color);
+}
+
+.nutritionNumPad > .confirmBtn {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}
+
+.nutritionNumPad > .calculateBtn {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: var(--secondary-call-to-action-color);
+}

@@ -1,0 +1,50 @@
+.ConfirmationModal {
+  width: 90%;
+  min-height: 100px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-bg-color);
+}
+
+.informationContainer,
+.actions {
+  padding: 8px;
+}
+
+.informationContainer {
+  flex: 1;
+  color: var(--primary-text-color);
+  overflow-y: auto;
+  background-image: var(--bg-image-gradient-two);
+  border-bottom: 1px solid var(--confirmation-call-to-action-bg-color);
+
+  font-size: var(--big-font-size);
+  text-align-last: left;
+  letter-spacing: 2px;
+  height: 100%;
+  white-space: pre-wrap;
+}
+
+.actions {
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+  padding: 10px;
+  height: 60px;
+  background: var(--primary-bg-lightest-color);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.actions {
+  background-color: var(--tertiary-bg-color);
+}
+
+.abortBtn {
+  background: var(--danger-call-to-action-bg-color);
+}
+
+.confirmBtn {
+  background-color: var(--confirmation-call-to-action-bg-color);
+}

@@ -1,0 +1,30 @@
+.CircularProgressbar {
+  margin: 8px;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: var(--primary-bg-color);
+  stroke-width: 8px;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke-width: 8px;
+  transition: "stroke-dashoffset 5.5s ease 0s";
+  /* stroke-linecap: butt; */
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: var(--primary-text-color);
+  font-weight: 200;
+  font-size: var(--giant-font-size);
+}
+
+.CircularProgressbar.protein .CircularProgressbar-path {
+  stroke: var(--protein-color);
+}
+.CircularProgressbar.fats .CircularProgressbar-path {
+  stroke: var(--fats-color);
+}
+.CircularProgressbar.carbs .CircularProgressbar-path {
+  stroke: var(--carbs-color);
+}

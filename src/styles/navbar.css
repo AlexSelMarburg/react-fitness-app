@@ -1,0 +1,76 @@
+:root {
+  --navbar-bg-color-1: #e0e0e0;
+  --navbar-bg-color-2: #b69c6d;
+  --navbar-bg-color-3: #1b1e29;
+  --navbar-bg-color-4: #222222;
+
+  /* --- NAVBAR --- */
+  --navbar-height: 80px;
+  --navbar-bg-color: #e0e0e0;
+
+  --navbar-active-icon-color: hsl(215, 20%, 16%, 0.8);
+  --navbar-icon-color: hsl(215, 20%, 16%, 0.4);
+
+  --navbar-btn-bg: linear-gradient(145deg, #f0f0f0, #cacaca);
+  --navbar-btn-box-shadow: 5px 5px 9px #acacac, -5px -5px 9px #ffffff;
+
+  --navbar-btn-bg-active: #e0e0e0;
+  --navbar-btn-box-shadow-active: inset 5px 5px 8px #bcbcbc,
+    inset -5px -5px 8px #ffffff;
+
+  --navbar-active-text-color: hsl(215, 20%, 16%, 1);
+  --navbar-text-color: hsla(218, 20%, 16%, 0.55);
+}
+
+body.navbarThemeAltOne {
+  /* --- NAVBAR --- */
+  --navbar-bg-color: var(--navbar-bg-color-2);
+
+  --navbar-active-icon-color: #1f2024c2;
+  --navbar-icon-color: #1f20245b;
+
+  --navbar-btn-bg: linear-gradient(145deg, #c3a775, #a48c62);
+  --navbar-btn-box-shadow: 5px 5px 9px #97815a, -5px -5px 9px #d5b780;
+
+  --navbar-btn-bg-active: linear-gradient(145deg, #a48c62, #c3a775);
+  --navbar-btn-box-shadow-active: 5px 5px 9px #97815a, -5px -5px 9px #d5b780;
+
+  --navbar-active-text-color: #1f2024;
+  --navbar-text-color: #1f2024a6;
+}
+
+body.navbarThemeAltTwo {
+  /* --- NAVBAR --- */
+  --navbar-bg-color: var(--navbar-bg-color-3);
+
+  --navbar-active-icon-color: var(--primary-call-to-action-bg-color);
+  --navbar-icon-color: #ffffff5b;
+
+  --navbar-btn-bg: linear-gradient(145deg, #181b25, #1d202c);
+  --navbar-btn-box-shadow: 5px 5px 10px #151720, -5px -5px 10px #212532;
+
+  --navbar-btn-bg-active: #1b1e29;
+  --navbar-btn-box-shadow-active: inset 5px 5px 10px #151720,
+    inset -5px -5px 10px #212532;
+
+  --navbar-active-text-color: #ffffffc2;
+  --navbar-text-color: #ffffff5b;
+}
+
+body.navbarThemeAltThree {
+  /* --- NAVBAR --- */
+  --navbar-bg-color: var(--navbar-bg-color-4);
+
+  --navbar-active-icon-color: #f9f9fc;
+  --navbar-icon-color: #f9f9fc6b;
+
+  --navbar-btn-bg: linear-gradient(145deg, #242424, #1f1f1f);
+  --navbar-btn-box-shadow: 5px 5px 10px #161616, -5px -5px 10px #2e2e2e;
+
+  --navbar-btn-bg-active: var(--navbar-bg-color-4);
+  --navbar-btn-box-shadow-active: inset 5px 5px 10px #161616,
+    inset -5px -5px 10px #2e2e2e;
+
+  --navbar-active-text-color: #f9f9fc;
+  --navbar-text-color: #f9f9fc6b;
+}

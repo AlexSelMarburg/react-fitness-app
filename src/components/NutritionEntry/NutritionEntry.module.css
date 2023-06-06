@@ -1,0 +1,142 @@
+.NutritionEntry {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--secondary-border-color);
+}
+
+.upperContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 0 5px;
+  background: linear-gradient(325deg, #000000 0%, #272727 48%);
+}
+
+.time {
+  width: 104px;
+  display: flex;
+  justify-content: center;
+  color: var(--accent-text-alt-color);
+  font-size: var(--giant-font-size);
+  font-family: var(--digital-font);
+  letter-spacing: 2px;
+}
+
+.lowerContainer {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: 0 0 4px 4px;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: var(--tertiary-bg-color);
+}
+
+.nutrients {
+  display: flex;
+  flex: 1;
+  gap: 3px;
+}
+
+.nutrient {
+  flex: 1;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  padding-left: 7px;
+  color: var(--primary-bg-color);
+}
+
+.nutrient > * {
+  text-align: left;
+}
+
+.nutrientName {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  color: var(--primary-bg-color);
+}
+
+.nutrientValue {
+  width: 100%;
+  font-size: var(--giant-font-size);
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--primary-text-color);
+}
+
+.calories {
+  letter-spacing: 2px;
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  font-size: var(--giant-font-size);
+}
+
+.calories > span:first-of-type {
+  font-family: var(--secondary-font);
+  color: var(--kcals-color);
+}
+
+.calories > span:last-of-type {
+  color: var(--secondary-text-color);
+  padding-left: 2px;
+  font-size: var(--big-font-size);
+}
+
+.protein {
+  background: var(--protein-color);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.carbs {
+  background: var(--carbs-color);
+}
+
+.fats {
+  background: var(--fats-color);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.actions {
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.editButton,
+.deleteButton {
+  width: 44px;
+  height: 44px;
+  padding-block: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButton {
+  background: var(--danger-call-to-action-bg-color);
+}
+
+.editButton {
+  background: var(--confirmation-call-to-action-bg-color);
+}
+
+.deleteButton > svg,
+.editButton > svg {
+  color: #fff;
+  font-size: 32px;
+}

@@ -1,0 +1,36 @@
+.date {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+  font-weight: 200;
+}
+
+.dayName {
+  letter-spacing: 2px;
+  color: var(--accent-text-alt-color);
+  font-size: var(--big-font-size);
+}
+
+.dayAndMonth {
+  font-size: var(--giant-font-size);
+  color: var(--heading-text-color);
+}
+
+.date .year {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.date .time {
+  padding-top: 12px;
+  font-family: var(--digital-font);
+  color: var(--main-text-alt-color);
+  font-size: 21px;
+  letter-spacing: 3px;
+}
